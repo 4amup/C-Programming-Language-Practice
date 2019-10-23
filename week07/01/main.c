@@ -8,7 +8,7 @@ float Y(float x, int n)
         return 0;
     }
 
-    return square(x + Y(x, n - 1));
+    return sqrt(x + Y(x, n - 1));
 }
 
 int main(int argc, char const *argv[])
