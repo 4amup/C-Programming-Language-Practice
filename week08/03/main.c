@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     // 从102开始，算出204和306
     // 然后检查204和306是否小于1000
     // 然后获得三个数的个十百位数字，检查是否重复
-    for (int i =102; i < 333; i++)
+    for (int i = 102; i < 333; i++)
     {
         a = i;
         b = 2 * i;
@@ -54,7 +54,6 @@ int main(int argc, char const *argv[])
         else
         {
             printf("%d,%d,%d\n", a, b, c);
-            break;
         }
     }
     return 0;
