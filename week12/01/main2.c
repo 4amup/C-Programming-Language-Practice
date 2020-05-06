@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     // 数据录入
     printf("Input time one:(hour，minute):");
     scanf("%d,%d", &t1.hour, &t1.minute);
-    printf("Input time one:(hour，minute):");
+    printf("Input time two: (hour，minute):");
     scanf("%d,%d", &t2.hour, &t2.minute);
 
     // 使用函数后输出结果
